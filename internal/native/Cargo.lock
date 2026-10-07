@@ -483,7 +483,7 @@ checksum = "e4eba85ea1d0a966a983acd07deee566e67395d2d96b6fb39e62b5a833f1eb0b"
 name = "go-rattler-native"
 version = "0.0.1"
 dependencies = [
- "rattler_conda_version 0.1.2",
+ "rattler_conda_version",
  "rattler_lock",
 ]
 
@@ -1063,7 +1063,7 @@ dependencies = [
  "nom",
  "nom-language",
  "purl",
- "rattler_conda_version 0.2.0",
+ "rattler_conda_version",
  "rattler_digest",
  "rattler_macros",
  "rattler_redaction",
@@ -1082,19 +1082,6 @@ dependencies = [
  "tracing",
  "typed-path",
  "url",
-]
-
-[[package]]
-name = "rattler_conda_version"
-version = "0.1.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "226c0502f7e6574d7eedf72096fb64586671ce44a6636485ebb93e70c34b7824"
-dependencies = [
- "itertools 0.15.0",
- "nom",
- "serde",
- "smallvec",
- "thiserror 2.0.21",
 ]
 
 [[package]]
