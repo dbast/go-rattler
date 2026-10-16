@@ -1043,9 +1043,9 @@ checksum = "f8dcc9c7d52a811697d2151c701e0d08956f92b0e24136cf4cf27b57a6a0d9bf"
 
 [[package]]
 name = "rattler_conda_types"
-version = "0.57.0"
+version = "0.57.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7f309cd92e2cf0f687e598142273fbc1d6870c5124212cc0088a555d50fcbadb"
+checksum = "3bb3da4e58250e74bf45cb6fe7f70f49fc3ac865be5ba7612f76229c6221522c"
 dependencies = [
  "ahash",
  "core-foundation",
@@ -1117,9 +1117,9 @@ dependencies = [
 
 [[package]]
 name = "rattler_lock"
-version = "0.34.7"
+version = "0.34.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e80104df6c5ee0d1bdc22d9992ebf8e1928473abed288e1503de26a3bfe18f99"
+checksum = "52bab9bcda8c5642786243c3b2f73e3c9961e3d173212100213330bd7b7ee3ed"
 dependencies = [
  "ahash",
  "file_url",
@@ -1166,9 +1166,9 @@ dependencies = [
 
 [[package]]
 name = "rattler_solve"
-version = "11.2.2"
+version = "11.2.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a2219ae2a14e628a165282dfee6ce430add37c1f0f2cb54ca4d9b4b0a7560b7f"
+checksum = "97156a587b76079519e4bd5f0b1e4aec7dac010bc2d8a03c49cd3e5bb677bee1"
 dependencies = [
  "hex",
  "itertools 0.15.0",
